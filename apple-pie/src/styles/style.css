@@ -1,9 +1,59 @@
-/*Some necessary adjustments*/
-h1,body,html,main {
-  margin: 0;
+#main{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
-/*Import the font and set the default size*/
-html {
+
+#portada{
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  width: 95%;
+  height: 50vh;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  }
+
+.texto{
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  width: 60vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 20px;
+  color:rgb(95, 95, 95);
+  text-align: justify;
 }
+
+.titulo{
+  color:rgb(60, 60, 60);
+  margin:15px;
+}
+
+.img-info1{
+  max-width: 40vw;
+}
+
+.img-info2{
+  max-width: 30vw;
+}
+
+hr{
+  border-width: 1px;
+  width: 80%;
+  margin:15px;
+}
+
+ul{
+  list-style: "-";
+}
+
+li{
+  margin:5px;
+}
+
